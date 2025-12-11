@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+            font-family: Arial;
+            margin: 0;
+            padding: 0;
+            background: #f2f2f2;
+        }
+
+        .container{
+            max-width: 700px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .profile-pic{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            display: block;
+            margin: auto;
+        }
+
+        h2, h3{
+            text-align: center;
+        }
+
+        .info{
+            margin-top: 15px;
+        }
+
+        .info p{
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        /* Responsive */
+        @media(max-width: 480px){
+            .container{
+                padding: 15px;
+            }
+            .info p{
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <img src="https://via.placeholder.com/120" class="profile-pic">
+
+    <h2>Prince Yadav</h2>
+    <h3>B.Tech CSE ds 2 Student</h3>
+
+    <div class="info">
+        <p><strong>Email:</strong> prince@gmail.com</p>
+        <p><strong>Phone:</strong> +91 81788129xx</p>
+        <p><strong>Location:</strong> Uttar Pradesh, India</p>
+        <p><strong>Skills:</strong> HTML, CSS, C++, Python</p>
+        <p><strong>College:</strong> ABES engineering college</p>
+    </div>
+</div>
+
+</body>
+</html>
